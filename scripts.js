@@ -65,7 +65,7 @@ function showCssNewCode() {
     if (cssNewStyle[code]) {
       const p = document.createElement("p");
       p.style.marginBottom = "0.5px";
-      p.innerHTML += `${code}  :  ${cssNewStyle[code]}`;
+      p.innerHTML += `${code}  :  ${cssNewStyle[code]};`;
       cssContainer.appendChild(p);
     }
   }
